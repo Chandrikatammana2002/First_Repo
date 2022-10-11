@@ -1,0 +1,143 @@
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -6.25em;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    overflow: hidden; 
+}
+
+.container{
+    
+    margin:0%;
+    width: 125%;
+    height: 450px;
+    padding-right: 90px;
+    padding-left:20px;
+    margin-left: 196px;
+    border-bottom: 3px;
+    border-style:solid;
+    border-color:white;
+    overflow-y:scroll;
+    margin-right: 16px;
+}
+p{
+  text-align: left;
+}
+label{
+    color:red;
+}
+h3{
+    text-align:left
+}
+h2{
+  text-align: center;
+}
+.ex{
+  
+  padding:10px;
+  padding-left: 30px;
+  border-radius: 15px;
+  background-color:rgb(70, 63, 63);
+  color:#f1f1f1;
+  
+}
+.nav-menu ul{
+    display: flex;
+}
+
+.nav-menu ul li{
+    
+    display: block;
+}
+
+.nav-menu ul li a{
+    float:left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav-menu ul li a:hover {
+    color: red;
+}
+.article {
+    padding: 0 15px;
+    width: 900px;
+    max-width: 60%;
+    background: transparent !important;
+    margin: 0 15px 0 0;
+  }
+
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    
+    height: 100%;
+    overflow: auto;
+    
+  }
+  
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  .article
+   {
+    float: left;
+  }
+ .out{
+    background-color:rgb(187, 179, 179);
+    border:5px solid  rgb(187, 179, 179);
+    border-radius: 13px;
+    padding: 10px;
+ }
+ 
+ .bu{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+ }
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: #111;
+    height:auto;
+    width: 100vw;
+    padding-top: 1 px;
+    color: #fff;
+}
