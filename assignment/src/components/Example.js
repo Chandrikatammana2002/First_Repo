@@ -5,7 +5,7 @@ function Example() {
   const [count, setCount] = useState(0);
 
   return (
-    <div>
+    <div className='out'>
       <p>You clicked {count} times</p>
       <button className="bu" onClick={() => setCount(count + 1)}>
         Click me
