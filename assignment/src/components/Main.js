@@ -1,8 +1,10 @@
-import React from "react";
+import React,{useState} from "react";
 import Sidebar from "./Sidebar";
 import '../styles.css';
 import Example from "./Example";
 const Main = () => {
+  const [st,newst]=useState(false);
+ 
     return (
 
       <div>
@@ -73,13 +75,12 @@ const Main = () => {
                  <br/>&#125;<br/>
                  export default Example;
                 </p>
-                <a href="#output"></a>
-                <h3>Output</h3>
-                <p className="out">
-                <Example />
-                </p>
+                <button className="bu" onClick={()=>newst(true)}>Run</button><br/><br/>
+                {st ? <Example /> : null} 
             </p>
+           
         </div>
+
         <Sidebar />
       </div>
     )

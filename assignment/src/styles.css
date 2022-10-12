@@ -129,6 +129,17 @@ h2{
   display: inline-block;
   font-size: 14px;
  }
+ .ru{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+ }
 .footer {
     position: absolute;
     bottom: 0;
